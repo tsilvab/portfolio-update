@@ -4,10 +4,10 @@ body {
     font-family: 'Imprima', sans-serif;
     font-size: 20px;
     background-image: url("./coffee.jpg");
-    background-size: cover;
-    background-position: 50% 100%;   
+    background-size: cover; 
+   /* background-position: 50% 100%;    */
     background-repeat: no-repeat;
-    position: relative;
+    /* position: relative; */
 }
 
 /* .header{
