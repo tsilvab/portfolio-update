@@ -1,14 +1,15 @@
 body {
   margin: 0;
+  padding: 6em 0;
     color:white;
     font-family: 'Imprima', sans-serif;
     font-size: 20px;
-    background-image: url("./coffee.jpg"); 
+    background: url("./coffee.jpg") no-repeat fixed; 
     /* background-position: 55% 100%; */
-    /* background-size: cover; */
-    background-repeat: no-repeat;
-    background-attachment:fixed;
-    background-size: 100% 100%, cover;
+     /* background-size: cover; 
+    background-attachment:fixed; */
+     background-size: 100% 100%, cover;  
+     /* min-height: 500px; */
     
 }
 
@@ -40,6 +41,31 @@ ul li {
    border: 3px solid white; 
 
 }
+.modal-header{
+  display:flex;
+    justify-content:center; 
+}
+
+button{
+ 
+  /* border: 3px solid white;   */
+  color: white;
+  font-size: 22px;
+  font-family: 'Imprima', sans-serif;
+  background-color: transparent;
+  /* margin-left: 50px; */
+  
+  
+}
+
+ /* #open{
+  display:flex;
+  justify-content:center;
+}  */
+
+#close{
+  border: 3px solid white;
+}
 
 hr{
   width: 90%;
@@ -55,8 +81,8 @@ hr{
 }
 #container{
     text-align:center;
-    padding-top:50px;
-    font-size: 25px;
+    padding-top:20px;
+    font-size: 28px;
  }
 
 #flex {
@@ -83,12 +109,20 @@ hr{
 } 
 
  #flexbox-3 p{
-  padding-left: 40px; 
- padding-right: 40px;        
+  padding: 0px, 40px;         
  /* width: 100%;   */
  width: 70%; 
    text-align: center;      
 }  
+
+#close{
+  display:flex;
+  align-content: center;
+    flex-wrap: wrap;
+    
+     width: auto;
+    line-height: 1.25;
+}
 
 span:hover {
   display:block;
@@ -97,6 +131,11 @@ span:hover {
     cursor: pointer;
     font-weight: bolder;
     color:white;
+}
+button:hover{
+  cursor: pointer;
+  font-weight: bolder;
+  color:white;
 }
 .side:hover{
     cursor: pointer;
