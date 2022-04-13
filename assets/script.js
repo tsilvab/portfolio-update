@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $('#open').click(function(){
-$('#myModal').fadeIn('slow');
+$('#myModal').slideToggle('slow');
     });
     $("#close").click(function(){
         $('#myModal').fadeOut('slow');
